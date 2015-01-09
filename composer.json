@@ -1,18 +1,23 @@
 {
-    "name": "philipsharp/slim-view-plates",
+    "name": "media32/slim-view-plates",
     "description": "A custom Slim framework view for the Plates template system.",
     "keywords": [
         "slim",
         "plates",
         "templating"
     ],
-    "homepage": "http://github.com/philipsharp/slim-view-plates",
+    "homepage": "http://github.com/media32/slim-view-plates",
     "license": "MIT",
     "authors": [
         {
             "name": "Philip Sharp",
             "email": "philip@kerzap.com",
             "homepage": "http://www.philipsharp.com/"
+        },
+        {
+            "name": "Media32 Inc",
+            "email": "contact@media32.ca",
+            "homepage": "http://www.media32.ca"
         }
     ],
     "require": {
@@ -21,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PhilipSharp\\Slim\\View\\": "src"
+            "Media32\\Slim\\View\\": "src"
         }
     }
 }

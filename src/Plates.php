@@ -1,5 +1,5 @@
 <?php
-namespace PhilipSharp\Slim\View;
+namespace Media32\Slim\View;
 
 use Slim\View;
 use League\Plates\Engine;

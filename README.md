@@ -10,7 +10,7 @@ Add the provider to your `composer.json` file:
 ```json
 {
     "require": {
-        "philipsharp/slim-view-plates": "2.*"
+        "media32/slim-view-plates": "2.*"
     }
 }
 ```
@@ -20,7 +20,7 @@ Enable it in your application
 ```php
 <?php
 
-$view = new \PhilipSharp\Slim\View\Plates();
+$view = new \Media32\Slim\View\Plates();
 
 $app = new \Slim\Slim(array(
     'view' => $view
@@ -55,7 +55,7 @@ extension:
 
 ```php
 $view->parserExtensions = array(
-    new \PhilipSharp\Slim\View\PlatesExtension()
+    new \Media32\Slim\View\PlatesExtension()
 );
 ```
 

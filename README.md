@@ -10,7 +10,7 @@ Add the provider to your `composer.json` file:
 ```json
 {
     "require": {
-        "media32/slim-view-plates": "2.*"
+        "media32/slim-view-plates": "3.*"
     }
 }
 ```
@@ -63,7 +63,7 @@ $view->parserExtensions = array(
 
 Inside your Plates template you would write:
 
-    <?= $this->urlFor('hello', array('name' => 'Josh', 'age' => '19')); ?>
+    <?= $this->slim()->urlFor('hello', array('name' => 'Josh', 'age' => '19')); ?>
 
 You can easily pass variables that are objects or arrays by doing:
 
